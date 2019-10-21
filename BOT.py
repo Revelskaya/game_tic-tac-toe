@@ -4,7 +4,7 @@ def pront(a):
     for i in range(len(a)):
         print(*a[i])
 
-a = [['0', '0', '0'], ['0', '0', '0'], ['0', '0', '0']]
+a = [['0', '0', '0'], ['0', '1', '0'], ['0', '0', '0']]
 #print(a)
 PosibPositions = []
 for i in range(3):

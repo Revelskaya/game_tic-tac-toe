@@ -1,2 +1,5 @@
 def out():
-  print(a)
+  for row in a:
+      for item in row:
+          print(item, end=' ')
+      print()
